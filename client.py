@@ -1,14 +1,13 @@
-# Importacion de librerias
-import websockets
 import asyncio
-import ssl
+import websockets
+import sys
 import json
+import ssl
 
-# Datos del servidor
-HOST = 'wss://machuca.com.ar'
-PORT = 4000
+# --- Configuración ---
+# Dirección del servidor WebSocket seguro (wss) y puerto
+HOST = "wss://machuca.com.ar:4000"
 
-# Equipos para hacer el registro (Mensaje REGISTRAR)
 team_register = {
     "mensaje_id":"REGISTRAR",
     "datos":{
@@ -31,45 +30,14 @@ team_register = {
             "formacion":"4-4-2"
         }
       }
-    }
+}
 
-# Token del equipo
 token = None
 
-# Funcion para registrar el equipo
-async def register(websocket):
-    global token                                                              # Se accede a la variable global del token del equipo 1 para que podamos usarla luego
-
-    await websocket.send(json.dumps(team_register))                           # Convertimos el diccionario a JSON con .dumps()
-    print("Registro enviado. Esperando respuesta...")
-
-    while True:
-        try:
-              # Esperamos la respuesta del servidor
-              response = await asyncio.wait_for(websocket.recv(), timeout=5)
-              data = json.loads(response)                                     # Convertimos el JSON en diccionario con .loads()
-
-              if data["mensaje_id"] == "OK":
-                  token = data["token"]
-                  print(f"Registro exitoso. Token recibido: {token}")
-                  return token
-
-              elif data["mensaje_id"] == "ERROR":
-                  error_desc = data["datos"]["descripcion"]
-                  print(f"Error al registrar equipo: {error_desc}")
-                  return None
-
-              else:
-                  print(f"Respuesta inesperada del servidor: {data}")
-
-        except asyncio.TimeoutError:
-            print("No se recibió respuesta del servidor en 5 segundos.")
-        except websockets.exceptions.ConnectionClosed:
-            print("Conexión cerrada antes de recibir respuesta.")
-        except websockets.exceptions.ConnectionClosedOK:
-            print("Server closed the connection normally.")
-        except websockets.exceptions.ConnectionClosedError as e:
-            print(f"Server closed the connection with error: {e}")
+async def register(websocket):                     
+    print("-> Enviando mensaje REGISTRAR...")                                   
+    await websocket.send(json.dumps(team_register))
+    print("Registro enviado.")
 
 # Funcion para patear la pelota
 async def kick_the_ball(websocket):
@@ -115,29 +83,76 @@ async def run_on_the_pitch(websocket):
     await websocket.send(json.dumps(run_action))
     print(f'Accion enviada!. Movimiento de jugador/es')
 
-# Funcion para evaluar los mensajes y procesarlos de acuerdo al tipo
-async def process_messages(websocket):
-    async for message in websocket:
-        data = json.loads(message)
-        message_id = data.get("mensaje_id")
 
-        if message_id == "TIENES_LA_PELOTA":
+async def handle_message(websocket, message_data):
+    """Procesa los mensajes recibidos del servidor."""
+    global token
+
+    message_id = message_data.get("mensaje_id")
+    datos = message_data.get("datos")
+    token_in_message = message_data.get("token")
+
+    print(f"<- Mensaje recibido con mensaje_id: {message_id}")
+
+    if message_id == "OK":
+        token = token_in_message
+        print(f"   ¡Registro exitoso! Token recibido: {token}")
+        print("   Esperando que comience el partido...")
+    
+    
+    elif message_id == "TIENES_LA_PELOTA":
             print("Tienes la pelota!")
             await pass_the_ball(websocket)
             await run_on_the_pitch(websocket)
-            
 
-async def main():
-    url = f"{HOST}:{PORT}"
-    ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)                     # Creamos un contexto SSL para establecer una conexión segura (TLS)
-    ssl_context.check_hostname = False
-    ssl_context.verify_mode = ssl.CERT_NONE                                   # Desactivamos la verificación del certificado SSL
+    elif message_id == "ERROR":
+        error_desc = datos.get("descripcion", "Error desconocido")
+        print(f"   ERROR del servidor: {error_desc}")
+        print("   El cliente terminará debido a un error de registro.")
+        await websocket.close()
+        sys.exit(1)
     
-    async with websockets.connect(url, ssl=ssl_context) as websocket:
-        print("Conectado al servidor!. Registrando equipo...")
-        await register(websocket)
-        print(f'El token del equipo es: {token}')
-        await process_messages(websocket)
+async def run_client():
+    print(f"Intentando conectar a {HOST}")
+    try:
+        ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+        ssl_context.check_hostname = False
+        ssl_context.verify_mode = ssl.CERT_NONE
+        
+        async with websockets.connect(HOST, ssl=ssl_context) as websocket:
+            print("¡Conexion establecida con exito!")
+            
+            await register(websocket)
+            
+            while True:
+                try:
+                    message = await websocket.recv()
+                    
+                    try:
+                        message_data = json.loads(message)
+                        await handle_message(websocket, message_data)
+                        
+                    except json.JSONDecodeError:
+                        print(f"Error: No se pudo decodificar el mensaje como JSON: {message}")
+                    except Exception as e:
+                        print(f"Error al procesar el mensaje: {e}\nMensaje: {message}")
+                    
+                except websockets.exceptions.ConnectionClosedOK:
+                    print("Conexión cerrada por el servidor de forma limpia.")
+                    break
+                except websockets.exceptions.ConnectionClosedError as e:
+                    print(f"Conexión cerrada con error: {e}")
+                    break
+                except Exception as e:
+                    print(f"Ocurrió un error durante la comunicación: {e}")
+                    break
+    except ConnectionRefusedError:
+        print(f"Error: Conexión rechazada. Asegúrate de que el servidor en {HOST} está activo y accesible.")
+        sys.exit(1)
+    except Exception as e:
+        print(f"Error general al conectar o ejecutar: {e}")
+        sys.exit(1)
+    
 
-# Ejecutamos la funcion
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(run_client())
