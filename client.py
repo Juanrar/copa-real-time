@@ -1,13 +1,46 @@
-import asyncio
+# Importacion de librerias
 import websockets
-import sys
-import json
+import asyncio
 import ssl
+import json
+import logging
+import datetime
+import sys
+from mensajes import (parse_server_message,
+                      MensajeRegistro,
+                      MensajeTienesLaPelota,
+                      MensajeReaccionar,
+                      MensajeError,
+                      ClientMessage,
+                      correr,
+                      pasar_pelota,
+                      patear,
+                      marcar_adversario)
+from utils import (get_ubicacion_pelota, 
+                   buscar_pelota,
+                   patear_al_arco)
 
-# --- Configuración ---
-# Dirección del servidor WebSocket seguro (wss) y puerto
-HOST = "wss://machuca.com.ar:4000"
+# Datos del servidor
+HOST = 'wss://machuca.com.ar'
+PORT = 4000
 
+now = datetime.datetime.now()
+now_formatted = now.strftime("%Y%m%d_%H%M%S")
+
+logging.basicConfig(
+    filename=f'./logs/client_{now_formatted}.log',        # Nombre del archivo de log
+    filemode='w',              # 'a' para añadir (append), 'w' para sobrescribir (write)
+    level=logging.INFO,        # Nivel mínimo para registrar
+    format='%(asctime)s - %(name)s - [%(levelname)s] %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+
+logger_raiz = logging.getLogger()
+consola_handler = logging.StreamHandler(sys.stdout)
+consola_handler.setLevel(logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Equipos para hacer el registro (Mensaje REGISTRAR)
 team_register = {
     "mensaje_id":"REGISTRAR",
     "datos":{
@@ -30,129 +63,86 @@ team_register = {
             "formacion":"4-4-2"
         }
       }
-}
-
-token = None
-
-async def register(websocket):                     
-    print("-> Enviando mensaje REGISTRAR...")                                   
-    await websocket.send(json.dumps(team_register))
-    print("Registro enviado.")
-
-# Funcion para patear la pelota
-async def kick_the_ball(websocket):
-    global token
-
-    kick_action = {
-        "mensaje_id": "PATEAR",
-        "token": token,
-        "datos": {"x": 10, "y": 10}
-    }
-    
-    await websocket.send(json.dumps(kick_action))
-    print(f'Accion enviada!. El jugador patea la pelota')
-
-# Funcion para pasar la pelota
-async def pass_the_ball(websocket):
-    global token
-
-    pass_action = {
-        "mensaje_id": "PASAR_PELOTA",
-        "token": token,
-        "datos": {"jugador_numero": 10}
     }
 
-    await websocket.send(json.dumps(pass_action))
-    print(f'Accion enviada!. Pasar pelota al jugador 10')
+# Funcion para registrar el equipo
+async def register(websocket) -> MensajeRegistro:
+    await websocket.send(json.dumps(team_register))                           # Convertimos el diccionario a JSON con .dumps()
+    logger.info("Registro enviado. Esperando respuesta...")
 
-# Funcion para que un jugador o un grupo de jugadores corra
-async def run_on_the_pitch(websocket):
-    global token
+    while True:
+        try:
+            # Esperamos la respuesta del servidor
+            response = await asyncio.wait_for(websocket.recv(), timeout=5)
+            mensaje = parse_server_message(response)
 
-    run_action = {
-        "mensaje_id": "CORRER",
-        "token": token,
-        "datos": {
-           "movimientos":[
-              {"jugador_numero": 10, "x": 10, "y": 10},
-              {"jugador_numero": 11, "x": 5, "y": 10},
-              {"jugador_numero": 9, "x": 8, "y": 10}
-           ]
-        }
-    }     
-    await websocket.send(json.dumps(run_action))
-    print(f'Accion enviada!. Movimiento de jugador/es')
+            if type(mensaje) == MensajeRegistro:
+                return mensaje
+            elif type(mensaje) == MensajeError:
+                logger.error(f'Error: {mensaje.datos}')
+                return None
+            else:
+                return None
+
+        except asyncio.TimeoutError:
+            logger.error("No se recibió respuesta del servidor en 5 segundos.")
+        except websockets.exceptions.ConnectionClosed:
+            logger.error("Conexión cerrada antes de recibir respuesta.")
+        except websockets.exceptions.ConnectionClosedOK:
+            logger.error("Server closed the connection normally.")
+        except websockets.exceptions.ConnectionClosedError as e:
+            logger.error(f"Server closed the connection with error: {e}")
+        return None
+
+async def send_message(websocket, mensaje: ClientMessage):
+
+    await websocket.send(json.dumps(mensaje.model_dump()))
+    logger.info(f'Accion enviada. Mensaje: {mensaje}')
+    return
 
 
-async def handle_message(websocket, message_data):
-    """Procesa los mensajes recibidos del servidor."""
-    global token
+# Funcion para evaluar los mensajes y procesarlos de acuerdo al tipo
+async def process_messages(websocket, token: str, equipo_id: str):
+    async for response in websocket:
+        mensaje = parse_server_message(response)
+        pos = 10
+        if type(mensaje) == MensajeTienesLaPelota:
+            logger.info("Tienes la pelota!")
+            logger.debug(mensaje)
+            #await send_message(websocket=websocket, mensaje=pasar_pelota(token, pos))
+            mensaje_a_enviar = patear_al_arco(token, mensaje, equipo_id)
+            await send_message(websocket, mensaje=mensaje_a_enviar)
+            if pos == 10:
+                pos = 9
+            else:
+                pos = 10
+        elif type(mensaje) == MensajeReaccionar:
+            logger.info("Reaccionar")
+            logger.debug(mensaje)
+            mensaje_a_enviar = buscar_pelota(token, mensaje, equipo_id)
+            await send_message(websocket, mensaje=mensaje_a_enviar)
+        elif type(mensaje) == MensajeError:
+            logger.error(f"Mensaje de error del servidor. Mensaje enviado: {mensaje_a_enviar}, Mensaje recibido: {mensaje}")
+        else:
+            logger.warning(f"Otro mensaje recibido. Mensaje enviado: \nMensaje Enviado: {mensaje_a_enviar}\n\nMensaje recibido: {mensaje}")
 
-    message_id = message_data.get("mensaje_id")
-    datos = message_data.get("datos")
-    token_in_message = message_data.get("token")
-
-    print(f"<- Mensaje recibido con mensaje_id: {message_id}")
-
-    if message_id == "OK":
-        token = token_in_message
-        print(f"   ¡Registro exitoso! Token recibido: {token}")
-        print("   Esperando que comience el partido...")
+async def main():
+    url = f"{HOST}:{PORT}"
+    ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)                     # Creamos un contexto SSL para establecer una conexión segura (TLS)
+    ssl_context.check_hostname = False
+    ssl_context.verify_mode = ssl.CERT_NONE                                   # Desactivamos la verificación del certificado SSL
+    token = None
     
-    
-    elif message_id == "TIENES_LA_PELOTA":
-            print("Tienes la pelota!")
-            await pass_the_ball(websocket)
-            await run_on_the_pitch(websocket)
+    async with websockets.connect(url, ssl=ssl_context) as websocket:
+        logger.info("Conectado al servidor!. Registrando equipo...")
+        mensaje_registro = await register(websocket)
+        token = mensaje_registro.token
+        equipo_id = mensaje_registro.destinatario
+        if token is None:
+            logger.error('No se registro ningun token. Saliendo')
+            return
+        logger.info(f'El token del equipo es: {token}')
+        await process_messages(websocket, token=token, equipo_id=equipo_id)
 
-    elif message_id == "ERROR":
-        error_desc = datos.get("descripcion", "Error desconocido")
-        print(f"   ERROR del servidor: {error_desc}")
-        print("   El cliente terminará debido a un error de registro.")
-        await websocket.close()
-        sys.exit(1)
-    
-async def run_client():
-    print(f"Intentando conectar a {HOST}")
-    try:
-        ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
-        ssl_context.check_hostname = False
-        ssl_context.verify_mode = ssl.CERT_NONE
-        
-        async with websockets.connect(HOST, ssl=ssl_context) as websocket:
-            print("¡Conexion establecida con exito!")
-            
-            await register(websocket)
-            
-            while True:
-                try:
-                    message = await websocket.recv()
-                    
-                    try:
-                        message_data = json.loads(message)
-                        await handle_message(websocket, message_data)
-                        
-                    except json.JSONDecodeError:
-                        print(f"Error: No se pudo decodificar el mensaje como JSON: {message}")
-                    except Exception as e:
-                        print(f"Error al procesar el mensaje: {e}\nMensaje: {message}")
-                    
-                except websockets.exceptions.ConnectionClosedOK:
-                    print("Conexión cerrada por el servidor de forma limpia.")
-                    break
-                except websockets.exceptions.ConnectionClosedError as e:
-                    print(f"Conexión cerrada con error: {e}")
-                    break
-                except Exception as e:
-                    print(f"Ocurrió un error durante la comunicación: {e}")
-                    break
-    except ConnectionRefusedError:
-        print(f"Error: Conexión rechazada. Asegúrate de que el servidor en {HOST} está activo y accesible.")
-        sys.exit(1)
-    except Exception as e:
-        print(f"Error general al conectar o ejecutar: {e}")
-        sys.exit(1)
-    
-
-if __name__ == "__main__":
-    asyncio.run(run_client())
+# Ejecutamos la funcion
+asyncio.run(main())
