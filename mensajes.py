@@ -3,7 +3,7 @@ import logging
 from typing import Optional, List, Tuple, Dict, Any, Literal, Union
 from pydantic import BaseModel, ValidationError, Field
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('mensajes')
 
 class BaseServerMessage(BaseModel):
     mensaje_id: str = Field(..., alias='mensaje_id')
