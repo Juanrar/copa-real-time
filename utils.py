@@ -18,7 +18,7 @@ from mensajes import (
                       marcar_adversario
                       )
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('utils')
 
 class Movimiento(TypedDict):
     jugador_numero: int

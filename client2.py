@@ -1,11 +1,8 @@
-# Importacion de librerias
 import websockets
 import asyncio
 import ssl
 import json
 import logging
-import datetime
-import sys
 from mensajes import (parse_server_message,
                       MensajeRegistro,
                       MensajeTienesLaPelota,
@@ -19,52 +16,17 @@ from mensajes import (parse_server_message,
 from utils import (get_ubicacion_pelota, 
                    buscar_pelota,
                    patear_al_arco)
+from teams import TEAM_PIN, TEAM_LANUS
+from log import setup_logging
 
 # Datos del servidor
 HOST = 'wss://machuca.com.ar'
 PORT = 4000
 
-now = datetime.datetime.now()
-now_formatted = now.strftime("%Y%m%d_%H%M%S")
+logger = logging.getLogger('client')
 
-logging.basicConfig(
-    filename=f'./logs/client2_{now_formatted}.log',        # Nombre del archivo de log
-    filemode='w',              # 'a' para añadir (append), 'w' para sobrescribir (write)
-    level=logging.INFO,        # Nivel mínimo para registrar
-    format='%(asctime)s - %(name)s - [%(levelname)s] %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
-)
-
-logger_raiz = logging.getLogger()
-consola_handler = logging.StreamHandler(sys.stdout)
-consola_handler.setLevel(logging.INFO)
-logger = logging.getLogger(__name__)
-
-
-# Equipos para hacer el registro (Mensaje REGISTRAR)
-team_register = {
-    "mensaje_id":"REGISTRAR",
-    "datos":{
-        "equipo":{
-            "id":"2",
-            "nombre":"LANUS",
-            "jugadores":[
-                {"numero": 1, "nombre": "Marchesin", "equipo_id": "2"},
-                {"numero": 2, "nombre": "Rojo", "equipo_id": "2"},
-                {"numero": 3, "nombre": "Blanco","equipo_id": "2"},
-                {"numero": 4, "nombre": "Advíncula", "equipo_id": "2"},
-                {"numero": 5, "nombre": "Blondel", "equipo_id": "2"},
-                {"numero": 6, "nombre": "Belmonte", "equipo_id": "2"},
-                {"numero": 7, "nombre": "Palacios", "equipo_id": "2"},
-                {"numero": 8, "nombre": "Delgado", "equipo_id": "2"},
-                {"numero": 9, "nombre": "Zenón", "equipo_id": "2"},
-                {"numero": 10, "nombre": "Merentiel", "equipo_id": "2", "es_el_crack": True},
-                {"numero": 11, "nombre": "Cavani", "equipo_id": "2", "tiene_la_pelota": True}
-            ],
-            "formacion":"4-3-3"
-        }
-      }
-    }
+team_register = TEAM_LANUS
+ID_CLIENT = 2
 
 # Funcion para registrar el equipo
 async def register(websocket) -> MensajeRegistro:
@@ -106,26 +68,24 @@ async def send_message(websocket, mensaje: ClientMessage):
 async def process_messages(websocket, token: str, equipo_id: str):
     async for response in websocket:
         mensaje = parse_server_message(response)
-        pos = 10
+
         if type(mensaje) == MensajeTienesLaPelota:
             logger.info("Tienes la pelota!")
             logger.debug(mensaje)
-            #await send_message(websocket=websocket, mensaje=pasar_pelota(token, pos))
             mensaje_a_enviar = patear_al_arco(token, mensaje, equipo_id)
             await send_message(websocket, mensaje=mensaje_a_enviar)
-            if pos == 10:
-                pos = 9
-            else:
-                pos = 10
+
         elif type(mensaje) == MensajeReaccionar:
             logger.info("Reaccionar")
             logger.debug(mensaje)
             mensaje_a_enviar = buscar_pelota(token, mensaje, equipo_id)
             await send_message(websocket, mensaje=mensaje_a_enviar)
+
         elif type(mensaje) == MensajeError:
             logger.error(f"Mensaje de error del servidor. Mensaje enviado: {mensaje_a_enviar}, Mensaje recibido: {mensaje}")
+
         else:
-            logger.warning(f"Otro mensaje recibido. Mensaje enviado: \nMensaje Enviado: {mensaje_a_enviar}\n\nMensaje recibido: {mensaje}")
+            logger.warning(f"Otro mensaje recibido.\nMensaje Enviado: {mensaje_a_enviar}\n\nMensaje recibido: {mensaje}")
 
 async def main():
     url = f"{HOST}:{PORT}"
@@ -133,12 +93,14 @@ async def main():
     ssl_context.check_hostname = False
     ssl_context.verify_mode = ssl.CERT_NONE                                   # Desactivamos la verificación del certificado SSL
     token = None
+    setup_logging(ID_CLIENT)
     
     async with websockets.connect(url, ssl=ssl_context) as websocket:
         logger.info("Conectado al servidor!. Registrando equipo...")
         mensaje_registro = await register(websocket)
         token = mensaje_registro.token
         equipo_id = mensaje_registro.destinatario
+
         if token is None:
             logger.error('No se registro ningun token. Saliendo')
             return
