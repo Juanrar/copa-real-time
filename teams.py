@@ -45,3 +45,27 @@ TEAM_LANUS = {
         }
       }
     }
+
+TEAM_BARCA = {
+    "mensaje_id":"REGISTRAR",
+    "datos":{
+        "equipo":{
+            "id":"3",
+            "nombre":"BARCA",
+            "jugadores":[
+                {"numero": 1, "nombre": "Valdez", "equipo_id": "3"},
+                {"numero": 2, "nombre": "Pique", "equipo_id": "3"},
+                {"numero": 3, "nombre": "Puyol","equipo_id": "3"},
+                {"numero": 4, "nombre": "Abidal", "equipo_id": "3"},
+                {"numero": 5, "nombre": "Dani Alves", "equipo_id": "3"},
+                {"numero": 6, "nombre": "Busquets", "equipo_id": "3"},
+                {"numero": 7, "nombre": "Xavi", "equipo_id": "3"},
+                {"numero": 8, "nombre": "Iniesta", "equipo_id": "3"},
+                {"numero": 9, "nombre": "Suarez", "equipo_id": "3"},
+                {"numero": 10, "nombre": "Messi", "equipo_id": "3", "es_el_crack": True},
+                {"numero": 11, "nombre": "Neymar Jr", "equipo_id": "3", "tiene_la_pelota": True}
+            ],
+            "formacion":"5-3-2"
+        }
+      }
+    }

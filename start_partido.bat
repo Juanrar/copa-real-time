@@ -3,15 +3,15 @@ REM Script .bat para ejecutar dos archivos Python en terminales separadas
 
 SET "TITLE1=Cliente 1"
 SET "TITLE2=Cliente 2"
-SET TARGET_URL=https://machuca.com.ar:4000/reset
+SET TARGET_URL=https://machuca.com.ar:4000
 
 REM Ruta al intérprete de Python (generalmente solo 'python' si está en el PATH)
-SET PYTHON_EXE="D:\Users\ezele\anaconda3\envs\sim_undav\python.exe"
+SET PYTHON_EXE="python.exe"
 
 REM curl %TARGET_URL% -k
 
 REM Ruta a tu primer script de Python
-SET SCRIPT1_PATH="client.py"
+SET SCRIPT1_PATH="client_tikitaka.py"
 
 REM Ruta a tu segundo script de Python
 SET SCRIPT2_PATH="client2.py"

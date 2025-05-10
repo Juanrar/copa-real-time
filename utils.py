@@ -135,7 +135,7 @@ def get_posicion_arco(mensaje: MensajeTienesLaPelota | MensajeReaccionar, equipo
     else:
         return cancha.equipo2.arco[1]
 
-def get_ubicacion_pelota(mensaje: MensajeReaccionar) -> Tuple[Coordenada, int] | None:
+def get_ubicacion_pelota(mensaje: MensajeTienesLaPelota | MensajeReaccionar) -> Tuple[Coordenada, int] | None:
     """
     Obtiene la ubicacion de la pelota a partir de un mensaje.
     Tambien devuelve el jugador que la posee en caso de corresponder.
