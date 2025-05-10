@@ -20,6 +20,8 @@ from mensajes import (
 
 logger = logging.getLogger('utils')
 
+posiciones_base: Dict[int, Coordenada] = {}
+
 class Movimiento(TypedDict):
     jugador_numero: int
     x: int
@@ -215,6 +217,8 @@ def jugador_mas_cercano_adversario(mensaje: MensajeReaccionar | MensajeTienesLaP
 
 def buscar_pelota(token: str, mensaje: MensajeReaccionar, equipo_id: str) -> MensajeCorrer | MensajeMarcarAdversario:
 
+    definir_posiciones_iniciales(mensaje, equipo_id)
+
     coord, adversario = get_ubicacion_pelota(mensaje)
 
     if adversario:
@@ -239,6 +243,69 @@ def buscar_pelota(token: str, mensaje: MensajeReaccionar, equipo_id: str) -> Men
                        y=1)
         ]})
     
+def buscar_pelota_todos(token: str, mensaje: MensajeReaccionar, equipo_id: str) -> MensajeCorrer | MensajeMarcarAdversario:
+    
+    definir_posiciones_iniciales(mensaje, equipo_id)
+
+    coord_pelota, adversario = get_ubicacion_pelota(mensaje)
+    jugadores = get_posicion_jugadores(mensaje, equipo_id=equipo_id)
+    movimientos = []
+
+    if adversario:
+        # Si la pelota está en posesión de un rival, el jugador más cercano lo marca
+        jugador = jugador_mas_cercano_adversario(mensaje, equipo_id=equipo_id, adversario=adversario)
+        logger.info(f'Jugador más cercano al adversario {adversario}: {jugador}')
+        return marcar_adversario(token, jugador=jugador, adversario=adversario)
+
+    elif coord_pelota:
+        # Jugador más cercano va a la pelota
+        jugador_buscador = jugador_mas_cercano_posicion(mensaje, equipo_id=equipo_id, coord=coord_pelota)
+
+        if jugador_buscador:
+            movimientos.append(Movimiento(jugador_numero=jugador_buscador, x=coord_pelota.x, y=coord_pelota.y))
+
+        # Los demás se adelantan (simulación ofensiva)
+        for jugador_compañero in jugadores:
+            if jugador_compañero['numero'] == jugador_buscador:
+                continue  # ya está en movimiento
+
+            nueva_x = jugador_compañero['coord'].x
+            nueva_y = min(jugador_compañero['coord'].y + 2, 14)  # avanzar en Y (hasta el fondo)
+
+            movimientos.append(Movimiento(jugador_numero=jugador_compañero['numero'], x=nueva_x, y=nueva_y))
+
+        logger.info(f"Movimientos ofensivos: {movimientos}")
+        return correr(token, datos={"movimientos": movimientos})
+
+    else:
+        logger.warning("No se pudo ubicar la pelota. Equipo desplegandote.")
+
+        movimientos = []
+        for jugador in jugadores:
+            pos_base = posiciones_base.get(jugador['numero'])
+            if pos_base:
+                movimientos.append(Movimiento(
+                    jugador_numero=jugador['numero'],
+                    x=pos_base.x,
+                    y=pos_base.y
+                ))
+            else:
+                logger.warning(f"Jugador {jugador['numero']} no pudo volver a su posición inicial")
+
+        return correr(token, datos={"movimientos": movimientos})
+
+def definir_posiciones_iniciales(mensaje: MensajeTienesLaPelota | MensajeReaccionar, equipo_id: str):
+    global posiciones_base
+
+    cancha = get_cancha(mensaje)
+
+    for sector in cancha.sectores:
+        for ocupante in sector.ocupantes:
+            if ocupante.equipo_id == f"equipo:{equipo_id}":
+                posiciones_base[ocupante.numero] = Coordenada(x=sector.x, y=sector.y)
+
+    logger.info(f"Posiciones base inicializadas: {posiciones_base}")
+
 def patear_al_arco(token: str, mensaje: MensajeTienesLaPelota, equipo_id: str):
 
     coordenada_arco = get_posicion_arco(mensaje, equipo_id=equipo_id, es_adversario=True)

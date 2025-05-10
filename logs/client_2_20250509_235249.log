@@ -1,0 +1,1251 @@
+2025-05-09 23:52:49 [INFO] log: Logging configurado exitosamente.
+2025-05-09 23:52:49 [INFO] client: Conectado al servidor!. Registrando equipo...
+2025-05-09 23:52:49 [INFO] client: Registro enviado. Esperando respuesta...
+2025-05-09 23:52:50 [INFO] client: El token del equipo es: TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0
+2025-05-09 23:53:00 [INFO] client: Reaccionar
+2025-05-09 23:53:00 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=8, y=10), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:00 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:00 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 10, 'adversario_numero': 11}
+2025-05-09 23:53:00 [INFO] client: Reaccionar
+2025-05-09 23:53:00 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=8, y=10), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:00 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:00 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 11, 'y': 8}]}
+2025-05-09 23:53:01 [INFO] client: Reaccionar
+2025-05-09 23:53:01 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=8, y=9), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:01 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:01 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 11, 'y': 8}]}
+2025-05-09 23:53:01 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:01 [INFO] client: Accion enviada. Mensaje: mensaje_id='PATEAR' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'x': 6, 'y': 0}
+2025-05-09 23:53:01 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:01 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PATEAR' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'x': 6, 'y': 0}
+
+Mensaje recibido: None
+2025-05-09 23:53:02 [INFO] client: Reaccionar
+2025-05-09 23:53:02 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=11, y=8), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:02 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:02 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 11, 'y': 8}]}
+2025-05-09 23:53:02 [INFO] client: Reaccionar
+2025-05-09 23:53:02 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=11, y=8), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:02 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:02 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 10, 'adversario_numero': 8}
+2025-05-09 23:53:03 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:03 [INFO] client: Accion enviada. Mensaje: mensaje_id='PATEAR' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'x': 6, 'y': 0}
+2025-05-09 23:53:03 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:03 [INFO] client: Accion enviada. Mensaje: mensaje_id='PATEAR' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'x': 6, 'y': 0}
+2025-05-09 23:53:05 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:05 [INFO] client: Accion enviada. Mensaje: mensaje_id='PATEAR' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'x': 6, 'y': 0}
+2025-05-09 23:53:05 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:05 [INFO] client: Accion enviada. Mensaje: mensaje_id='PATEAR' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'x': 6, 'y': 0}
+2025-05-09 23:53:05 [INFO] client: Reaccionar
+2025-05-09 23:53:05 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=11, y=8), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:05 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:05 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 9, 'y': 4}]}
+2025-05-09 23:53:05 [INFO] client: Reaccionar
+2025-05-09 23:53:05 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=11, y=8), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:05 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:05 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 9, 'y': 4}]}
+2025-05-09 23:53:05 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:05 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 9, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:06 [ERROR] client: Mensaje de error del servidor. Mensaje enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 9, 'y': 4}]}, Mensaje recibido: mensaje_id='ERROR' datos={'descripcion': 'PATEAR no se puede ejecturar por no poseer la pelota.'}
+2025-05-09 23:53:06 [INFO] client: Reaccionar
+2025-05-09 23:53:06 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=11, y=8), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:06 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:06 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 9, 'y': 4}]}
+2025-05-09 23:53:06 [ERROR] client: Mensaje de error del servidor. Mensaje enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 9, 'y': 4}]}, Mensaje recibido: mensaje_id='ERROR' datos={'descripcion': 'PATEAR no se puede ejecturar por no poseer la pelota.'}
+2025-05-09 23:53:06 [INFO] client: Reaccionar
+2025-05-09 23:53:06 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=11, y=8), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:06 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:06 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 9, 'y': 4}]}
+2025-05-09 23:53:07 [INFO] client: Reaccionar
+2025-05-09 23:53:07 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=11, y=8), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:07 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:07 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 10, 'adversario_numero': 3}
+2025-05-09 23:53:07 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:07 [INFO] client: Accion enviada. Mensaje: mensaje_id='PATEAR' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'x': 6, 'y': 0}
+2025-05-09 23:53:07 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:07 [INFO] client: Accion enviada. Mensaje: mensaje_id='PATEAR' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'x': 6, 'y': 0}
+2025-05-09 23:53:07 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:07 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PATEAR' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'x': 6, 'y': 0}
+
+Mensaje recibido: None
+2025-05-09 23:53:09 [INFO] client: Reaccionar
+2025-05-09 23:53:09 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=9, y=4), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:09 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:09 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 10, 'adversario_numero': 3}
+2025-05-09 23:53:09 [ERROR] client: Mensaje de error del servidor. Mensaje enviado: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 10, 'adversario_numero': 3}, Mensaje recibido: mensaje_id='ERROR' datos={'descripcion': 'PATEAR no se puede ejecturar por no poseer la pelota.'}
+2025-05-09 23:53:09 [INFO] client: Reaccionar
+2025-05-09 23:53:09 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=9, y=4), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:09 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:09 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 10, 'adversario_numero': 3}
+2025-05-09 23:53:10 [INFO] client: Reaccionar
+2025-05-09 23:53:10 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=9, y=4), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:10 [INFO] utils: Jugador mas cercano 11
+2025-05-09 23:53:10 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 11, 'adversario_numero': 10}
+2025-05-09 23:53:10 [INFO] client: Reaccionar
+2025-05-09 23:53:10 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=9, y=4), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:10 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:10 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:10 [INFO] client: Reaccionar
+2025-05-09 23:53:10 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=9, y=4), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:10 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:10 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 10, 'adversario_numero': 3}
+2025-05-09 23:53:10 [INFO] client: Reaccionar
+2025-05-09 23:53:10 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=9, y=4), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:10 [INFO] utils: Jugador mas cercano 11
+2025-05-09 23:53:10 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 11, 'adversario_numero': 10}
+2025-05-09 23:53:10 [INFO] client: Reaccionar
+2025-05-09 23:53:10 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=9, y=4), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:10 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:10 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:10 [INFO] client: Reaccionar
+2025-05-09 23:53:10 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=9, y=4), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:10 [INFO] utils: Jugador mas cercano 11
+2025-05-09 23:53:10 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 11, 'adversario_numero': 10}
+2025-05-09 23:53:10 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:10 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 11, 'adversario_numero': 10}
+
+Mensaje recibido: None
+2025-05-09 23:53:12 [INFO] client: Reaccionar
+2025-05-09 23:53:12 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=9, y=4), 11: Coordenada(x=4, y=10)}
+2025-05-09 23:53:12 [INFO] utils: Jugador mas cercano 11
+2025-05-09 23:53:12 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 11, 'adversario_numero': 10}
+2025-05-09 23:53:12 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:12 [INFO] client: Accion enviada. Mensaje: mensaje_id='PATEAR' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'x': 6, 'y': 0}
+2025-05-09 23:53:12 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:12 [INFO] client: Accion enviada. Mensaje: mensaje_id='PATEAR' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'x': 6, 'y': 0}
+2025-05-09 23:53:12 [INFO] client: Reaccionar
+2025-05-09 23:53:12 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:12 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:12 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 10, 'adversario_numero': 2}
+2025-05-09 23:53:12 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:12 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 10, 'adversario_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:14 [INFO] client: Reaccionar
+2025-05-09 23:53:14 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:14 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:14 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 10, 'adversario_numero': 2}
+2025-05-09 23:53:14 [INFO] client: Reaccionar
+2025-05-09 23:53:14 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:14 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:14 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 10, 'adversario_numero': 2}
+2025-05-09 23:53:14 [ERROR] client: Mensaje de error del servidor. Mensaje enviado: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 10, 'adversario_numero': 2}, Mensaje recibido: mensaje_id='ERROR' datos={'descripcion': 'PATEAR no se puede ejecturar por no poseer la pelota.'}
+2025-05-09 23:53:14 [INFO] client: Reaccionar
+2025-05-09 23:53:14 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:14 [INFO] utils: Jugador mas cercano 11
+2025-05-09 23:53:14 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 11, 'adversario_numero': 10}
+2025-05-09 23:53:14 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:14 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 11, 'adversario_numero': 10}
+
+Mensaje recibido: None
+2025-05-09 23:53:15 [INFO] client: Reaccionar
+2025-05-09 23:53:15 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:15 [INFO] utils: Pelota en el aire.
+2025-05-09 23:53:15 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:15 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:15 [INFO] client: Reaccionar
+2025-05-09 23:53:15 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:15 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:15 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:15 [INFO] client: Reaccionar
+2025-05-09 23:53:15 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:15 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:15 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'jugador_numero': 10, 'adversario_numero': 2}
+2025-05-09 23:53:15 [INFO] client: Reaccionar
+2025-05-09 23:53:15 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:15 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:15 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:15 [INFO] client: Reaccionar
+2025-05-09 23:53:15 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:15 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:15 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:15 [INFO] client: Reaccionar
+2025-05-09 23:53:15 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:15 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:15 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:15 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:15 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:16 [INFO] client: Reaccionar
+2025-05-09 23:53:16 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:16 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:16 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:16 [INFO] client: Reaccionar
+2025-05-09 23:53:16 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:16 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:16 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:16 [INFO] client: Reaccionar
+2025-05-09 23:53:16 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:16 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:16 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:16 [INFO] client: Reaccionar
+2025-05-09 23:53:16 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:16 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:16 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:16 [INFO] client: Reaccionar
+2025-05-09 23:53:16 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:16 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:16 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:16 [INFO] client: Reaccionar
+2025-05-09 23:53:16 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:16 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:16 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:16 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:16 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:17 [INFO] client: Reaccionar
+2025-05-09 23:53:17 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:17 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:17 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:17 [INFO] client: Reaccionar
+2025-05-09 23:53:17 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:17 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:17 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:17 [INFO] client: Reaccionar
+2025-05-09 23:53:17 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:17 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:17 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:17 [INFO] client: Reaccionar
+2025-05-09 23:53:17 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:17 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:17 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:17 [INFO] client: Reaccionar
+2025-05-09 23:53:17 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:17 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:17 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:17 [INFO] client: Reaccionar
+2025-05-09 23:53:17 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:17 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:17 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:17 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:17 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:18 [INFO] client: Reaccionar
+2025-05-09 23:53:18 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:18 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:18 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:18 [INFO] client: Reaccionar
+2025-05-09 23:53:18 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:18 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:18 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:18 [INFO] client: Reaccionar
+2025-05-09 23:53:18 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:18 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:18 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:18 [INFO] client: Reaccionar
+2025-05-09 23:53:18 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:18 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:18 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:18 [INFO] client: Reaccionar
+2025-05-09 23:53:18 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:18 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:18 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:18 [INFO] client: Reaccionar
+2025-05-09 23:53:18 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:18 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:18 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:18 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:18 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:19 [INFO] client: Reaccionar
+2025-05-09 23:53:19 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:19 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:19 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:19 [INFO] client: Reaccionar
+2025-05-09 23:53:19 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:19 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:19 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:19 [INFO] client: Reaccionar
+2025-05-09 23:53:19 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:19 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:19 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:19 [INFO] client: Reaccionar
+2025-05-09 23:53:19 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:19 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:19 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:19 [INFO] client: Reaccionar
+2025-05-09 23:53:19 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:19 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:19 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:19 [INFO] client: Reaccionar
+2025-05-09 23:53:19 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:19 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:19 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:19 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:19 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:20 [INFO] client: Reaccionar
+2025-05-09 23:53:20 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:20 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:20 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:20 [INFO] client: Reaccionar
+2025-05-09 23:53:20 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:20 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:20 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:20 [INFO] client: Reaccionar
+2025-05-09 23:53:20 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:20 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:20 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:20 [INFO] client: Reaccionar
+2025-05-09 23:53:20 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:20 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:20 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:20 [INFO] client: Reaccionar
+2025-05-09 23:53:20 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:20 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:20 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:20 [INFO] client: Reaccionar
+2025-05-09 23:53:20 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:20 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:20 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:20 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:20 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:21 [INFO] client: Reaccionar
+2025-05-09 23:53:21 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:21 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:21 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:21 [INFO] client: Reaccionar
+2025-05-09 23:53:21 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:21 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:21 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:21 [INFO] client: Reaccionar
+2025-05-09 23:53:21 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:21 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:21 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:21 [INFO] client: Reaccionar
+2025-05-09 23:53:21 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:21 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:21 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:21 [INFO] client: Reaccionar
+2025-05-09 23:53:21 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:21 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:21 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:21 [INFO] client: Reaccionar
+2025-05-09 23:53:21 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:21 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:21 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:21 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:21 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:22 [INFO] client: Reaccionar
+2025-05-09 23:53:22 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:22 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:22 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:22 [INFO] client: Reaccionar
+2025-05-09 23:53:22 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:22 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:22 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:22 [INFO] client: Reaccionar
+2025-05-09 23:53:22 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:22 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:22 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:22 [INFO] client: Reaccionar
+2025-05-09 23:53:22 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:22 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:22 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:22 [INFO] client: Reaccionar
+2025-05-09 23:53:22 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:22 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:22 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:22 [INFO] client: Reaccionar
+2025-05-09 23:53:22 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:22 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:22 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:22 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:22 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:23 [INFO] client: Reaccionar
+2025-05-09 23:53:23 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:23 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:23 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:23 [INFO] client: Reaccionar
+2025-05-09 23:53:23 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:23 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:23 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:23 [INFO] client: Reaccionar
+2025-05-09 23:53:23 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:23 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:23 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:23 [INFO] client: Reaccionar
+2025-05-09 23:53:23 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:23 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:23 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:23 [INFO] client: Reaccionar
+2025-05-09 23:53:23 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:23 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:23 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:23 [INFO] client: Reaccionar
+2025-05-09 23:53:23 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:23 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:23 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:23 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:23 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:24 [INFO] client: Reaccionar
+2025-05-09 23:53:24 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:24 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:24 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:24 [INFO] client: Reaccionar
+2025-05-09 23:53:24 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:24 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:24 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:24 [INFO] client: Reaccionar
+2025-05-09 23:53:24 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:24 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:24 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:24 [INFO] client: Reaccionar
+2025-05-09 23:53:24 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:24 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:24 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:24 [INFO] client: Reaccionar
+2025-05-09 23:53:24 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:24 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:24 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:24 [INFO] client: Reaccionar
+2025-05-09 23:53:24 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:24 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:24 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:24 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:24 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:25 [INFO] client: Reaccionar
+2025-05-09 23:53:25 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:25 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:25 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:25 [INFO] client: Reaccionar
+2025-05-09 23:53:25 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:25 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:25 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:25 [INFO] client: Reaccionar
+2025-05-09 23:53:25 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:25 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:25 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:25 [INFO] client: Reaccionar
+2025-05-09 23:53:25 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:25 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:25 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:25 [INFO] client: Reaccionar
+2025-05-09 23:53:25 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:25 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:25 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:25 [INFO] client: Reaccionar
+2025-05-09 23:53:25 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:25 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:25 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:25 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:25 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:26 [INFO] client: Reaccionar
+2025-05-09 23:53:26 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:26 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:26 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:26 [INFO] client: Reaccionar
+2025-05-09 23:53:26 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:26 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:26 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:26 [INFO] client: Reaccionar
+2025-05-09 23:53:26 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:26 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:26 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:26 [INFO] client: Reaccionar
+2025-05-09 23:53:26 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:26 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:26 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:26 [INFO] client: Reaccionar
+2025-05-09 23:53:26 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:26 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:26 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:26 [INFO] client: Reaccionar
+2025-05-09 23:53:26 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:26 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:26 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:26 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:26 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:27 [INFO] client: Reaccionar
+2025-05-09 23:53:27 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:27 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:27 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:27 [INFO] client: Reaccionar
+2025-05-09 23:53:27 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:27 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:27 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:27 [INFO] client: Reaccionar
+2025-05-09 23:53:27 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:27 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:27 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:27 [INFO] client: Reaccionar
+2025-05-09 23:53:27 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:27 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:27 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:27 [INFO] client: Reaccionar
+2025-05-09 23:53:27 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:27 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:27 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:27 [INFO] client: Reaccionar
+2025-05-09 23:53:27 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:27 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:27 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:27 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:27 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:28 [INFO] client: Reaccionar
+2025-05-09 23:53:28 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:28 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:28 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:28 [INFO] client: Reaccionar
+2025-05-09 23:53:28 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:28 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:28 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:28 [INFO] client: Reaccionar
+2025-05-09 23:53:28 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:28 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:28 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:28 [INFO] client: Reaccionar
+2025-05-09 23:53:28 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:28 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:28 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:28 [INFO] client: Reaccionar
+2025-05-09 23:53:28 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:28 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:28 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:28 [INFO] client: Reaccionar
+2025-05-09 23:53:28 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:28 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:28 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:28 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:28 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:29 [INFO] client: Reaccionar
+2025-05-09 23:53:29 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:29 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:29 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:29 [INFO] client: Reaccionar
+2025-05-09 23:53:29 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:29 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:29 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:29 [INFO] client: Reaccionar
+2025-05-09 23:53:29 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:29 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:29 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:29 [INFO] client: Reaccionar
+2025-05-09 23:53:29 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:29 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:29 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:29 [INFO] client: Reaccionar
+2025-05-09 23:53:29 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:29 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:29 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:29 [INFO] client: Reaccionar
+2025-05-09 23:53:29 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:29 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:29 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:29 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:29 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:30 [INFO] client: Reaccionar
+2025-05-09 23:53:30 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:30 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:30 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:30 [INFO] client: Reaccionar
+2025-05-09 23:53:30 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:30 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:30 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:30 [INFO] client: Reaccionar
+2025-05-09 23:53:30 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:30 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:30 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:30 [INFO] client: Reaccionar
+2025-05-09 23:53:30 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:30 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:30 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:30 [INFO] client: Reaccionar
+2025-05-09 23:53:30 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:30 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:30 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:30 [INFO] client: Reaccionar
+2025-05-09 23:53:30 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:30 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:30 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:30 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:30 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:31 [INFO] client: Reaccionar
+2025-05-09 23:53:31 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:31 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:31 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:31 [INFO] client: Reaccionar
+2025-05-09 23:53:31 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:31 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:31 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:31 [INFO] client: Reaccionar
+2025-05-09 23:53:31 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:31 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:31 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:31 [INFO] client: Reaccionar
+2025-05-09 23:53:31 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:31 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:31 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:31 [INFO] client: Reaccionar
+2025-05-09 23:53:31 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:31 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:31 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:31 [INFO] client: Reaccionar
+2025-05-09 23:53:31 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:31 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:31 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:31 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:31 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:32 [INFO] client: Reaccionar
+2025-05-09 23:53:32 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:32 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:32 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:32 [INFO] client: Reaccionar
+2025-05-09 23:53:32 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:32 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:32 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:32 [INFO] client: Reaccionar
+2025-05-09 23:53:32 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:32 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:32 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:32 [INFO] client: Reaccionar
+2025-05-09 23:53:32 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:32 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:32 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:32 [INFO] client: Reaccionar
+2025-05-09 23:53:32 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:32 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:32 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:32 [INFO] client: Reaccionar
+2025-05-09 23:53:32 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:32 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:32 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:32 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:32 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:33 [INFO] client: Reaccionar
+2025-05-09 23:53:33 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:33 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:33 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:33 [INFO] client: Reaccionar
+2025-05-09 23:53:33 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:33 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:33 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:33 [INFO] client: Reaccionar
+2025-05-09 23:53:33 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:33 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:33 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:33 [INFO] client: Reaccionar
+2025-05-09 23:53:33 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:33 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:33 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:33 [INFO] client: Reaccionar
+2025-05-09 23:53:33 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:33 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:33 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:33 [INFO] client: Reaccionar
+2025-05-09 23:53:33 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:33 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:33 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:33 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:33 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:34 [INFO] client: Reaccionar
+2025-05-09 23:53:34 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:34 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:34 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:34 [INFO] client: Reaccionar
+2025-05-09 23:53:34 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:34 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:34 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:34 [INFO] client: Reaccionar
+2025-05-09 23:53:34 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:34 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:34 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:34 [INFO] client: Reaccionar
+2025-05-09 23:53:34 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:34 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:34 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:34 [INFO] client: Reaccionar
+2025-05-09 23:53:34 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:34 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:34 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:34 [INFO] client: Reaccionar
+2025-05-09 23:53:34 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:34 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:34 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:34 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:34 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:35 [INFO] client: Reaccionar
+2025-05-09 23:53:35 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:35 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:35 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:35 [INFO] client: Reaccionar
+2025-05-09 23:53:35 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:35 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:35 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:35 [INFO] client: Reaccionar
+2025-05-09 23:53:35 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:35 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:35 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:35 [INFO] client: Reaccionar
+2025-05-09 23:53:35 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:35 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:35 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:35 [INFO] client: Reaccionar
+2025-05-09 23:53:35 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:35 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:35 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:35 [INFO] client: Reaccionar
+2025-05-09 23:53:35 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:35 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:35 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:35 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:35 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:36 [INFO] client: Reaccionar
+2025-05-09 23:53:36 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:36 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:36 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:36 [INFO] client: Reaccionar
+2025-05-09 23:53:36 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:36 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:36 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:36 [INFO] client: Reaccionar
+2025-05-09 23:53:36 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:36 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:36 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:36 [INFO] client: Reaccionar
+2025-05-09 23:53:36 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:36 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:36 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:36 [INFO] client: Reaccionar
+2025-05-09 23:53:36 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:36 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:36 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:36 [INFO] client: Reaccionar
+2025-05-09 23:53:36 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:36 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:36 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:36 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:36 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:37 [INFO] client: Reaccionar
+2025-05-09 23:53:37 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:37 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:37 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:37 [INFO] client: Reaccionar
+2025-05-09 23:53:37 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:37 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:37 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:37 [INFO] client: Reaccionar
+2025-05-09 23:53:37 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:37 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:37 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:37 [INFO] client: Reaccionar
+2025-05-09 23:53:37 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:37 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:37 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:37 [INFO] client: Reaccionar
+2025-05-09 23:53:37 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:37 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:37 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:37 [INFO] client: Reaccionar
+2025-05-09 23:53:37 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:37 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:37 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:37 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:37 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:38 [INFO] client: Reaccionar
+2025-05-09 23:53:38 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:38 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:38 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:38 [INFO] client: Reaccionar
+2025-05-09 23:53:38 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:38 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:38 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:38 [INFO] client: Reaccionar
+2025-05-09 23:53:38 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:38 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:38 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:38 [INFO] client: Reaccionar
+2025-05-09 23:53:38 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:38 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:38 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:38 [INFO] client: Reaccionar
+2025-05-09 23:53:38 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:38 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:38 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:38 [INFO] client: Reaccionar
+2025-05-09 23:53:38 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:38 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:38 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:38 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:38 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:39 [INFO] client: Reaccionar
+2025-05-09 23:53:39 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:39 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:39 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:39 [INFO] client: Reaccionar
+2025-05-09 23:53:39 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:39 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:39 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:39 [INFO] client: Reaccionar
+2025-05-09 23:53:39 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:39 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:39 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:39 [INFO] client: Reaccionar
+2025-05-09 23:53:39 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:39 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:39 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:39 [INFO] client: Reaccionar
+2025-05-09 23:53:39 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:39 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:39 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:39 [INFO] client: Reaccionar
+2025-05-09 23:53:39 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:39 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:39 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:39 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:39 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:40 [INFO] client: Reaccionar
+2025-05-09 23:53:40 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:40 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:40 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:40 [INFO] client: Reaccionar
+2025-05-09 23:53:40 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:40 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:40 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:40 [INFO] client: Reaccionar
+2025-05-09 23:53:40 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:40 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:40 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:40 [INFO] client: Reaccionar
+2025-05-09 23:53:40 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:40 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:40 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:40 [INFO] client: Reaccionar
+2025-05-09 23:53:40 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:40 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:40 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:40 [INFO] client: Reaccionar
+2025-05-09 23:53:40 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:40 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:40 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:40 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:40 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:41 [INFO] client: Reaccionar
+2025-05-09 23:53:41 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:41 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:41 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:41 [INFO] client: Reaccionar
+2025-05-09 23:53:41 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:41 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:41 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:41 [INFO] client: Reaccionar
+2025-05-09 23:53:41 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:41 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:41 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:41 [INFO] client: Reaccionar
+2025-05-09 23:53:41 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:41 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:41 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:41 [INFO] client: Reaccionar
+2025-05-09 23:53:41 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:41 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:41 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:41 [INFO] client: Reaccionar
+2025-05-09 23:53:41 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:41 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:41 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:41 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:41 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:42 [INFO] client: Reaccionar
+2025-05-09 23:53:42 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:42 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:42 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:42 [INFO] client: Reaccionar
+2025-05-09 23:53:42 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:42 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:42 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:42 [INFO] client: Reaccionar
+2025-05-09 23:53:42 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:42 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:42 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:42 [INFO] client: Reaccionar
+2025-05-09 23:53:42 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:42 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:42 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:42 [INFO] client: Reaccionar
+2025-05-09 23:53:42 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:42 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:42 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:42 [INFO] client: Reaccionar
+2025-05-09 23:53:42 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:42 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:42 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:42 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:42 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:43 [INFO] client: Reaccionar
+2025-05-09 23:53:43 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:43 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:43 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:43 [INFO] client: Reaccionar
+2025-05-09 23:53:43 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:43 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:43 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:43 [INFO] client: Reaccionar
+2025-05-09 23:53:43 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:43 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:43 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:43 [INFO] client: Reaccionar
+2025-05-09 23:53:43 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:43 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:43 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:43 [INFO] client: Reaccionar
+2025-05-09 23:53:43 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:43 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:43 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:43 [INFO] client: Reaccionar
+2025-05-09 23:53:43 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:43 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:43 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:43 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:43 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:44 [INFO] client: Reaccionar
+2025-05-09 23:53:44 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:44 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:44 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:44 [INFO] client: Reaccionar
+2025-05-09 23:53:44 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:44 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:44 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:44 [INFO] client: Reaccionar
+2025-05-09 23:53:44 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:44 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:44 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:44 [INFO] client: Reaccionar
+2025-05-09 23:53:44 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:44 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:44 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:44 [INFO] client: Reaccionar
+2025-05-09 23:53:44 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:44 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:44 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:44 [INFO] client: Reaccionar
+2025-05-09 23:53:44 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:44 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:44 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:44 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:44 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:45 [INFO] client: Reaccionar
+2025-05-09 23:53:45 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:45 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:45 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:45 [INFO] client: Reaccionar
+2025-05-09 23:53:45 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:45 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:45 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:45 [INFO] client: Reaccionar
+2025-05-09 23:53:45 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:45 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:45 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:45 [INFO] client: Reaccionar
+2025-05-09 23:53:45 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:45 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:45 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:45 [INFO] client: Reaccionar
+2025-05-09 23:53:45 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:45 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:45 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:45 [INFO] client: Reaccionar
+2025-05-09 23:53:45 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:45 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:45 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:45 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:45 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:46 [INFO] client: Reaccionar
+2025-05-09 23:53:46 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:46 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:46 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:46 [INFO] client: Reaccionar
+2025-05-09 23:53:46 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:46 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:46 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:46 [INFO] client: Reaccionar
+2025-05-09 23:53:46 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:46 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:46 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:46 [INFO] client: Reaccionar
+2025-05-09 23:53:46 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:46 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:46 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:46 [INFO] client: Reaccionar
+2025-05-09 23:53:46 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:46 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:46 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:46 [INFO] client: Reaccionar
+2025-05-09 23:53:46 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:46 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:46 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:46 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:46 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:47 [INFO] client: Reaccionar
+2025-05-09 23:53:47 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:47 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:47 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:47 [INFO] client: Reaccionar
+2025-05-09 23:53:47 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:47 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:47 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:47 [INFO] client: Reaccionar
+2025-05-09 23:53:47 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:47 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:47 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:47 [INFO] client: Reaccionar
+2025-05-09 23:53:47 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:47 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:47 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:47 [INFO] client: Reaccionar
+2025-05-09 23:53:47 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:47 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:47 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:47 [INFO] client: Reaccionar
+2025-05-09 23:53:47 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:47 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:47 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:47 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:47 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:48 [INFO] client: Reaccionar
+2025-05-09 23:53:48 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:48 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:48 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:48 [INFO] client: Reaccionar
+2025-05-09 23:53:48 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:48 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:48 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:48 [INFO] client: Reaccionar
+2025-05-09 23:53:48 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:48 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:48 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:48 [INFO] client: Reaccionar
+2025-05-09 23:53:48 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:48 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:48 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:48 [INFO] client: Reaccionar
+2025-05-09 23:53:48 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:48 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:48 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:48 [INFO] client: Reaccionar
+2025-05-09 23:53:48 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:48 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:48 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:48 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:48 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:49 [INFO] client: Reaccionar
+2025-05-09 23:53:49 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:49 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:49 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:49 [INFO] client: Reaccionar
+2025-05-09 23:53:49 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:49 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:49 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:49 [INFO] client: Reaccionar
+2025-05-09 23:53:49 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:49 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:49 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:49 [INFO] client: Reaccionar
+2025-05-09 23:53:49 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:49 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:49 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:49 [INFO] client: Reaccionar
+2025-05-09 23:53:49 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:49 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:49 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:49 [INFO] client: Reaccionar
+2025-05-09 23:53:49 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:49 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:49 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:49 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:49 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:50 [INFO] client: Reaccionar
+2025-05-09 23:53:50 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:50 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:50 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:50 [INFO] client: Reaccionar
+2025-05-09 23:53:50 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:50 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:50 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:50 [INFO] client: Reaccionar
+2025-05-09 23:53:50 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:50 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:50 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:50 [INFO] client: Reaccionar
+2025-05-09 23:53:50 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:50 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:50 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:50 [INFO] client: Reaccionar
+2025-05-09 23:53:50 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:50 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:50 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:50 [INFO] client: Reaccionar
+2025-05-09 23:53:50 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:50 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:50 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:50 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:50 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:51 [INFO] client: Reaccionar
+2025-05-09 23:53:51 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:51 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:51 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:51 [INFO] client: Reaccionar
+2025-05-09 23:53:51 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:51 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:51 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:51 [INFO] client: Reaccionar
+2025-05-09 23:53:51 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:51 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:51 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:51 [INFO] client: Reaccionar
+2025-05-09 23:53:51 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:51 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:51 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:51 [INFO] client: Reaccionar
+2025-05-09 23:53:51 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:51 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:51 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:51 [INFO] client: Reaccionar
+2025-05-09 23:53:51 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:51 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:51 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:51 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:51 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:52 [INFO] client: Reaccionar
+2025-05-09 23:53:52 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:52 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:52 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:52 [INFO] client: Reaccionar
+2025-05-09 23:53:52 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:52 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:52 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:52 [INFO] client: Reaccionar
+2025-05-09 23:53:52 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:52 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:52 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:52 [INFO] client: Reaccionar
+2025-05-09 23:53:52 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:52 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:52 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:52 [INFO] client: Reaccionar
+2025-05-09 23:53:52 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:52 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:52 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:52 [INFO] client: Reaccionar
+2025-05-09 23:53:52 [INFO] utils: Posiciones base inicializadas: {1: Coordenada(x=6, y=19), 2: Coordenada(x=1, y=16), 3: Coordenada(x=4, y=16), 4: Coordenada(x=8, y=16), 5: Coordenada(x=11, y=16), 6: Coordenada(x=3, y=13), 7: Coordenada(x=6, y=13), 8: Coordenada(x=9, y=13), 9: Coordenada(x=6, y=10), 10: Coordenada(x=12, y=4), 11: Coordenada(x=4, y=9)}
+2025-05-09 23:53:52 [INFO] utils: Jugador mas cercano 10
+2025-05-09 23:53:52 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:52 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:52 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-36bf0052-4785-4fa3-8a0a-30204d9e0ab0' datos={'movimientos': [{'jugador_numero': 10, 'x': 12, 'y': 4}]}
+
+Mensaje recibido: None

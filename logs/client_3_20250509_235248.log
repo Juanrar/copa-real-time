@@ -1,0 +1,623 @@
+2025-05-09 23:52:48 [INFO] log: Logging configurado exitosamente.
+2025-05-09 23:52:48 [INFO] client: Conectado al servidor!. Registrando equipo...
+2025-05-09 23:52:48 [INFO] client: Registro enviado. Esperando respuesta...
+2025-05-09 23:52:49 [INFO] client: El token del equipo es: TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054
+2025-05-09 23:52:59 [INFO] client: Tienes la pelota!
+2025-05-09 23:52:59 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 8}
+2025-05-09 23:53:01 [INFO] client: Reaccionar
+2025-05-09 23:53:01 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=3), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=10, y=7), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:01 [INFO] utils: Jugador mas cercano 8
+2025-05-09 23:53:01 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'movimientos': [{'jugador_numero': 8, 'x': 11, 'y': 8}]}
+2025-05-09 23:53:01 [INFO] client: Reaccionar
+2025-05-09 23:53:01 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=3), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=10, y=7), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:01 [INFO] utils: Jugador mas cercano 8
+2025-05-09 23:53:01 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'movimientos': [{'jugador_numero': 8, 'x': 11, 'y': 8}]}
+2025-05-09 23:53:02 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:02 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 8}
+2025-05-09 23:53:02 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:02 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 11}
+2025-05-09 23:53:02 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:02 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 11}
+
+Mensaje recibido: None
+2025-05-09 23:53:03 [INFO] client: Reaccionar
+2025-05-09 23:53:03 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=3), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=11, y=8), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:03 [INFO] utils: Jugador mas cercano 8
+2025-05-09 23:53:03 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 8, 'adversario_numero': 10}
+2025-05-09 23:53:03 [ERROR] client: Mensaje de error del servidor. Mensaje enviado: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 8, 'adversario_numero': 10}, Mensaje recibido: mensaje_id='ERROR' datos={'descripcion': 'PATEAR no se puede ejecturar por no poseer la pelota.'}
+2025-05-09 23:53:03 [INFO] client: Reaccionar
+2025-05-09 23:53:03 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=3), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=11, y=8), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:03 [INFO] utils: Jugador mas cercano 8
+2025-05-09 23:53:03 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 8, 'adversario_numero': 10}
+2025-05-09 23:53:05 [INFO] client: Reaccionar
+2025-05-09 23:53:05 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=3), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=11, y=8), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:05 [INFO] utils: Jugador mas cercano 8
+2025-05-09 23:53:05 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 8, 'adversario_numero': 10}
+2025-05-09 23:53:05 [INFO] client: Reaccionar
+2025-05-09 23:53:05 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=3), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=11, y=8), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:05 [INFO] utils: Jugador mas cercano 3
+2025-05-09 23:53:05 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'movimientos': [{'jugador_numero': 3, 'x': 9, 'y': 4}]}
+2025-05-09 23:53:05 [INFO] client: Reaccionar
+2025-05-09 23:53:05 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=3), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=11, y=8), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:05 [INFO] utils: Jugador mas cercano 8
+2025-05-09 23:53:05 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 8, 'adversario_numero': 10}
+2025-05-09 23:53:05 [INFO] client: Reaccionar
+2025-05-09 23:53:05 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=3), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=11, y=8), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:05 [INFO] utils: Pelota en el aire.
+2025-05-09 23:53:05 [INFO] utils: Jugador mas cercano 8
+2025-05-09 23:53:05 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'movimientos': [{'jugador_numero': 8, 'x': 11, 'y': 8}]}
+2025-05-09 23:53:05 [INFO] client: Reaccionar
+2025-05-09 23:53:05 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=3), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=11, y=8), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:05 [INFO] utils: Jugador mas cercano 3
+2025-05-09 23:53:05 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'movimientos': [{'jugador_numero': 3, 'x': 9, 'y': 4}]}
+2025-05-09 23:53:05 [INFO] client: Reaccionar
+2025-05-09 23:53:05 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=3), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=11, y=8), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:05 [INFO] utils: Jugador mas cercano 3
+2025-05-09 23:53:05 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'movimientos': [{'jugador_numero': 3, 'x': 9, 'y': 4}]}
+2025-05-09 23:53:05 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:05 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='CORRER' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'movimientos': [{'jugador_numero': 3, 'x': 9, 'y': 4}]}
+
+Mensaje recibido: None
+2025-05-09 23:53:06 [INFO] client: Reaccionar
+2025-05-09 23:53:06 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=3), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=11, y=8), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:06 [INFO] utils: Jugador mas cercano 3
+2025-05-09 23:53:06 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'movimientos': [{'jugador_numero': 3, 'x': 9, 'y': 4}]}
+2025-05-09 23:53:06 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:06 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 3}
+2025-05-09 23:53:07 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:07 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:07 [ERROR] client: Mensaje de error del servidor. Mensaje enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}, Mensaje recibido: mensaje_id='ERROR' datos={'descripcion': 'PATEAR no se puede ejecturar por no poseer la pelota.'}
+2025-05-09 23:53:07 [INFO] client: Reaccionar
+2025-05-09 23:53:07 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=4), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=11, y=8), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:07 [INFO] utils: Jugador mas cercano 3
+2025-05-09 23:53:07 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 3, 'adversario_numero': 10}
+2025-05-09 23:53:07 [INFO] client: Reaccionar
+2025-05-09 23:53:07 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=4), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=11, y=8), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:07 [INFO] utils: Jugador mas cercano 3
+2025-05-09 23:53:07 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 3, 'adversario_numero': 10}
+2025-05-09 23:53:07 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:07 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 3, 'adversario_numero': 10}
+
+Mensaje recibido: None
+2025-05-09 23:53:09 [ERROR] client: Mensaje de error del servidor. Mensaje enviado: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 3, 'adversario_numero': 10}, Mensaje recibido: mensaje_id='ERROR' datos={'descripcion': 'PATEAR no se puede ejecturar por no poseer la pelota.'}
+2025-05-09 23:53:09 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:09 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:09 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:09 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:10 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:10 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:10 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:10 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:10 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:10 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:10 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:10 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 3}
+2025-05-09 23:53:10 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:10 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 3}
+
+Mensaje recibido: None
+2025-05-09 23:53:12 [INFO] client: Reaccionar
+2025-05-09 23:53:12 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=4), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=11, y=8), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:12 [INFO] utils: Jugador mas cercano 3
+2025-05-09 23:53:12 [INFO] client: Accion enviada. Mensaje: mensaje_id='MARCAR_ADVERSARIO' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 3, 'adversario_numero': 10}
+2025-05-09 23:53:12 [INFO] client: Reaccionar
+2025-05-09 23:53:12 [INFO] utils: Posiciones base inicializadas: {11: Coordenada(x=8, y=9), 1: Coordenada(x=6, y=0), 2: Coordenada(x=12, y=4), 3: Coordenada(x=9, y=4), 4: Coordenada(x=6, y=3), 5: Coordenada(x=3, y=3), 6: Coordenada(x=0, y=4), 7: Coordenada(x=2, y=7), 8: Coordenada(x=11, y=8), 9: Coordenada(x=6, y=6), 10: Coordenada(x=4, y=9)}
+2025-05-09 23:53:12 [INFO] utils: Jugador mas cercano 2
+2025-05-09 23:53:12 [INFO] client: Accion enviada. Mensaje: mensaje_id='CORRER' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'movimientos': [{'jugador_numero': 2, 'x': 12, 'y': 4}]}
+2025-05-09 23:53:12 [ERROR] client: Mensaje de error del servidor. Mensaje enviado: mensaje_id='CORRER' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'movimientos': [{'jugador_numero': 2, 'x': 12, 'y': 4}]}, Mensaje recibido: mensaje_id='ERROR' datos={'descripcion': 'PATEAR no se puede ejecturar por no poseer la pelota.'}
+2025-05-09 23:53:12 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:12 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 3}
+2025-05-09 23:53:12 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:12 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 3}
+
+Mensaje recibido: None
+2025-05-09 23:53:14 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:14 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 3}
+2025-05-09 23:53:14 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:14 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 3}
+2025-05-09 23:53:14 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:14 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:14 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:14 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:15 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:15 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 3}
+2025-05-09 23:53:15 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:15 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:15 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:15 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:15 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:15 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:15 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:15 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:16 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:16 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:16 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:16 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:16 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:16 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:16 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:16 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:16 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:16 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:17 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:17 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:17 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:17 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:17 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:17 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:17 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:17 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:17 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:17 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:18 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:18 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:18 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:18 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:18 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:18 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:18 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:18 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:18 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:18 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:19 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:19 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:19 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:19 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:19 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:19 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:19 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:19 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:19 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:19 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:20 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:20 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:20 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:20 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:20 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:20 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:20 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:20 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:20 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:20 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:21 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:21 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:21 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:21 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:21 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:21 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:21 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:21 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:21 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:21 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:22 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:22 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:22 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:22 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:22 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:22 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:22 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:22 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:22 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:22 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:23 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:23 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:23 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:23 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:23 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:23 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:23 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:23 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:23 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:23 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:24 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:24 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:24 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:24 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:24 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:24 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:24 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:24 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:24 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:24 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:25 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:25 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:25 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:25 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:25 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:25 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:25 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:25 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:25 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:25 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:26 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:26 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:26 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:26 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:26 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:26 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:26 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:26 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:26 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:26 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:27 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:27 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:27 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:27 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:27 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:27 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:27 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:27 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:27 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:27 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:28 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:28 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:28 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:28 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:28 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:28 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:28 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:28 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:28 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:28 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:29 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:29 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:29 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:29 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:29 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:29 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:29 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:29 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:29 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:29 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:30 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:30 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:30 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:30 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:30 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:30 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:30 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:30 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:30 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:30 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:31 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:31 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:31 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:31 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:31 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:31 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:31 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:31 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:31 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:31 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:32 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:32 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:32 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:32 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:32 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:32 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:32 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:32 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:32 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:32 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:33 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:33 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:33 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:33 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:33 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:33 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:33 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:33 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:33 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:33 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:34 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:34 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:34 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:34 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:34 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:34 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:34 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:34 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:34 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:34 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:35 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:35 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:35 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:35 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:35 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:35 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:35 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:35 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:35 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:35 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:36 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:36 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:36 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:36 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:36 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:36 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:36 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:36 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:36 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:36 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:37 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:37 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:37 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:37 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:37 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:37 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:37 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:37 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:37 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:37 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:38 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:38 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:38 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:38 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:38 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:38 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:38 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:38 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:38 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:38 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:39 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:39 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:39 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:39 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:39 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:39 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:39 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:39 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:39 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:39 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:40 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:40 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:40 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:40 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:40 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:40 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:40 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:40 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:40 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:40 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:41 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:41 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:41 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:41 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:41 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:41 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:41 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:41 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:41 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:41 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:42 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:42 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:42 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:42 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:42 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:42 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:42 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:42 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:42 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:42 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:43 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:43 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:43 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:43 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:43 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:43 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:43 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:43 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:43 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:43 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:44 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:44 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:44 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:44 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:44 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:44 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:44 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:44 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:44 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:44 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:45 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:45 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:45 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:45 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:45 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:45 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:45 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:45 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:45 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:45 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:46 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:46 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:46 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:46 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:46 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:46 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:46 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:46 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:46 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:46 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:47 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:47 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:47 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:47 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:47 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:47 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:47 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:47 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:47 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:47 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:48 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:48 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:48 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:48 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:48 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:48 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:48 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:48 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:48 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:48 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:49 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:49 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:49 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:49 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:49 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:49 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:49 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:49 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:49 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:49 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:50 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:50 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:50 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:50 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:50 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:50 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:50 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:50 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:50 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:50 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:51 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:51 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:51 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:51 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:51 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:51 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:51 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:51 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:51 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:51 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
+2025-05-09 23:53:52 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:52 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:52 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:52 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:52 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:52 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:52 [INFO] client: Tienes la pelota!
+2025-05-09 23:53:52 [INFO] client: Accion enviada. Mensaje: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+2025-05-09 23:53:52 [ERROR] mensajes: msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}
+2025-05-09 23:53:52 [WARNING] client: Otro mensaje recibido.
+Mensaje Enviado: mensaje_id='PASAR_PELOTA' token='TOKEN-9a93fad7-d224-4578-9aaf-b1e4f0537054' datos={'jugador_numero': 2}
+
+Mensaje recibido: None
