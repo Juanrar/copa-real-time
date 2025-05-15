@@ -6,7 +6,7 @@ SET "TITLE2=Cliente 2"
 SET TARGET_URL=https://machuca.com.ar:4000/reset
 
 REM Ruta al intérprete de Python (generalmente solo 'python' si está en el PATH)
-SET PYTHON_EXE="D:\Users\ezele\anaconda3\envs\sim_undav\python.exe"
+SET PYTHON_EXE="python.exe"
 
 REM curl %TARGET_URL% -k
 

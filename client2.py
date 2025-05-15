@@ -87,13 +87,13 @@ async def process_messages(websocket, token: str, equipo_id: str):
         else:
             logger.warning(f"Otro mensaje recibido.\nMensaje Enviado: {mensaje_a_enviar}\n\nMensaje recibido: {mensaje}")
 
-async def main():
-    url = f"{HOST}:{PORT}"
-    ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)                     # Creamos un contexto SSL para establecer una conexión segura (TLS)
+async def run_client(host, port, id_client):
+    url = f"{host}:{port}"
+    ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)  # Creamos un contexto SSL para establecer una conexión segura (TLS)
     ssl_context.check_hostname = False
-    ssl_context.verify_mode = ssl.CERT_NONE                                   # Desactivamos la verificación del certificado SSL
+    ssl_context.verify_mode = ssl.CERT_NONE                # Desactivamos la verificación del certificado SSL
     token = None
-    setup_logging(ID_CLIENT)
+    setup_logging(id_client)
     
     async with websockets.connect(url, ssl=ssl_context) as websocket:
         logger.info("Conectado al servidor!. Registrando equipo...")
@@ -107,5 +107,6 @@ async def main():
         logger.info(f'El token del equipo es: {token}')
         await process_messages(websocket, token=token, equipo_id=equipo_id)
 
-# Ejecutamos la funcion
-asyncio.run(main())
+# Ejecutamos la funcion principal
+if __name__ == "__main__":
+    asyncio.run(run_client(HOST, PORT, ID_CLIENT))
