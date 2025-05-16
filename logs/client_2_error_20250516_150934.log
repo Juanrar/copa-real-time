@@ -1,0 +1,1 @@
+2025-05-16 15:09:44 [ERROR] mensajes:132 (parse_server_message) - msg_id no interpretado. Data: {'mensaje_id': 'OCUPADO', 'datos': {'descripcion': 'El Servidor está ocupado en este momento. Intente más tarde.'}}

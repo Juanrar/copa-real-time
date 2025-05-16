@@ -1,11 +1,13 @@
 from math import sqrt
 from typing import Dict, List, Tuple, TypedDict
 import logging
+import random
 from mensajes import (
                       MensajeTienesLaPelota,
                       MensajeReaccionar,
                       Coordenada,
                       Ocupante,
+                      Coordenada,
                       CanchaData,
                       MensajeCorrer,
                       MensajePatear,
@@ -319,21 +321,21 @@ def patear_al_arco(token: str, mensaje: MensajeTienesLaPelota, equipo_id: str):
         logger.error(f'Error al encontrar la coordenada del arco. Mensaje: {mensaje}')
         return patear(token, coord=Coordenada(x=10, y=10))
 
-# Nuevo mensaje    
+# Nueva funcion    
 def jugar_con_la_pelota(token: str, mensaje: MensajeTienesLaPelota, equipo_id: str):
     """
     Decide si pasar o patear según la cercanía al arco.
     """
     cancha = get_cancha(mensaje)
     if not cancha:
-        logger.error("No se pudo obtener la cancha.")
+        logger.error("No se pudo obtener la cancha")
         return patear_al_arco(token, mensaje, equipo_id)
 
-    coord_arco = get_posicion_arco(mensaje, equipo_id, es_adversario=True)
+    coord_arco = get_posicion_aleatoria_del_arco(mensaje, equipo_id, es_adversario=True)
     coord_pelota, jugador_con_pelota = get_ubicacion_pelota(mensaje)
 
     if not coord_pelota or not jugador_con_pelota:
-        logger.warning("No se pudo obtener info suficiente para decidir.")
+        logger.warning("No se pudo obtener info suficiente para realizar un pase")
         return patear_al_arco(token, mensaje, equipo_id)
 
     distancia_arco = distancia(coord_pelota, coord_arco)
@@ -367,7 +369,34 @@ def jugar_con_la_pelota(token: str, mensaje: MensajeTienesLaPelota, equipo_id: s
 
     return patear(token, coord=coord_arco)
 
+# Nueva funcion
 
+def get_posicion_aleatoria_del_arco(mensaje: MensajeTienesLaPelota | MensajeReaccionar, equipo_id: str, es_adversario: bool, arco: Tuple[Coordenada, Coordenada, Coordenada]) -> Coordenada | None:
+    """
+    Devuelve una de las tres posiciones del arco
 
+    args:
+        mensaje: Mensaje del servidor.
+        equipo_id (str): Identificador de tu equipo.
+        es_adversario (bool): Flag para indicar de que equipo se busca el arco.
+        arco: Tupla de las tres posiciones del arco.
+    returns:
+        Coordenada: Posicion aleatoria del arco.
+    """
 
+    cancha = get_cancha(mensaje)
 
+    if not cancha:
+        logger.error(f'Error al obtener el arco. Mensaje: {mensaje}')
+        return None
+    
+    if es_adversario and cancha.equipo1.id != f'equipo:{equipo_id}':
+        arco = cancha.equipo1.arco
+    else:
+        arco = cancha.equipo2.arco
+
+    if len(arco) != 3:
+        logger.error(f'Arco no tiene 3 coordenadas: {arco}')
+        return None
+
+    return random.choice(arco)
