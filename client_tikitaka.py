@@ -16,9 +16,7 @@ from mensajes import (parse_server_message,
 from utils import (get_ubicacion_pelota, 
                    buscar_pelota,
                    patear_al_arco,
-                   get_posicion_jugadores,
-                   distancia,
-                   jugador_mas_cercano_posicion)
+                   jugar_con_la_pelota)
 from teams import TEAM_BARCA
 from log import setup_logging
 
@@ -75,18 +73,7 @@ async def process_messages(websocket, token: str, equipo_id: str):
         if type(mensaje) == MensajeTienesLaPelota:
             logger.info("Tienes la pelota!")
             logger.debug(mensaje)
-            
-            ultimo_receptor = None
-            coord_jugador, numero_jugador = get_ubicacion_pelota(mensaje)
-            # Obtengo las posiciones de los compañeros de equipo
-            jugadores_de_equipo = get_posicion_jugadores(mensaje, equipo_id)
-            # Se filtra al que ya la tiene para que se haga un autopase
-            jugadores_de_equipo = [compañero for compañero in jugadores_de_equipo if compañero['numero'] != numero_jugador and compañero['numero'] != ultimo_receptor]
-            # Elijo el jugador más cercano al jugador con la pelota
-            receptor = min(jugadores_de_equipo, key=lambda otro_jugador: distancia(otro_jugador['coord'], coord_jugador))['numero']
-            ultimo_receptor = receptor
-
-            mensaje_a_enviar = pasar_pelota(token, receptor)
+            mensaje_a_enviar = jugar_con_la_pelota(token, mensaje, equipo_id)
             await send_message(websocket, mensaje=mensaje_a_enviar)
 
         elif type(mensaje) == MensajeReaccionar:

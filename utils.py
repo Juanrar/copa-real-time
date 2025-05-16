@@ -20,7 +20,8 @@ from mensajes import (
 
 logger = logging.getLogger('utils')
 
-posiciones_base: Dict[int, Coordenada] = {}
+# Ante una perdida de pelota para replegarse
+# posiciones_base: Dict[int, Coordenada] = {}
 
 class Movimiento(TypedDict):
     jugador_numero: int
@@ -137,7 +138,7 @@ def get_posicion_arco(mensaje: MensajeTienesLaPelota | MensajeReaccionar, equipo
     else:
         return cancha.equipo2.arco[1]
 
-def get_ubicacion_pelota(mensaje: MensajeTienesLaPelota | MensajeReaccionar) -> Tuple[Coordenada, int] | None:
+def get_ubicacion_pelota(mensaje: MensajeTienesLaPelota | MensajeReaccionar) -> Tuple[Coordenada, int] | None:      # Modificada por mi...
     """
     Obtiene la ubicacion de la pelota a partir de un mensaje.
     Tambien devuelve el jugador que la posee en caso de corresponder.
@@ -217,7 +218,7 @@ def jugador_mas_cercano_adversario(mensaje: MensajeReaccionar | MensajeTienesLaP
 
 def buscar_pelota(token: str, mensaje: MensajeReaccionar, equipo_id: str) -> MensajeCorrer | MensajeMarcarAdversario:
 
-    definir_posiciones_iniciales(mensaje, equipo_id)
+    #definir_posiciones_iniciales(mensaje, equipo_id)    # Agregado por mi
 
     coord, adversario = get_ubicacion_pelota(mensaje)
 
@@ -242,7 +243,7 @@ def buscar_pelota(token: str, mensaje: MensajeReaccionar, equipo_id: str) -> Men
                        x=1,
                        y=1)
         ]})
-    
+"""    
 def buscar_pelota_todos(token: str, mensaje: MensajeReaccionar, equipo_id: str) -> MensajeCorrer | MensajeMarcarAdversario:
     
     definir_posiciones_iniciales(mensaje, equipo_id)
@@ -306,6 +307,8 @@ def definir_posiciones_iniciales(mensaje: MensajeTienesLaPelota | MensajeReaccio
 
     logger.info(f"Posiciones base inicializadas: {posiciones_base}")
 
+"""
+
 def patear_al_arco(token: str, mensaje: MensajeTienesLaPelota, equipo_id: str):
 
     coordenada_arco = get_posicion_arco(mensaje, equipo_id=equipo_id, es_adversario=True)
@@ -315,6 +318,55 @@ def patear_al_arco(token: str, mensaje: MensajeTienesLaPelota, equipo_id: str):
     else:
         logger.error(f'Error al encontrar la coordenada del arco. Mensaje: {mensaje}')
         return patear(token, coord=Coordenada(x=10, y=10))
+
+# Nuevo mensaje    
+def jugar_con_la_pelota(token: str, mensaje: MensajeTienesLaPelota, equipo_id: str):
+    """
+    Decide si pasar o patear según la cercanía al arco.
+    """
+    cancha = get_cancha(mensaje)
+    if not cancha:
+        logger.error("No se pudo obtener la cancha.")
+        return patear_al_arco(token, mensaje, equipo_id)
+
+    coord_arco = get_posicion_arco(mensaje, equipo_id, es_adversario=True)
+    coord_pelota, jugador_con_pelota = get_ubicacion_pelota(mensaje)
+
+    if not coord_pelota or not jugador_con_pelota:
+        logger.warning("No se pudo obtener info suficiente para decidir.")
+        return patear_al_arco(token, mensaje, equipo_id)
+
+    distancia_arco = distancia(coord_pelota, coord_arco)
+
+    # Si estamos cerca del arco, pateamos
+    if distancia_arco < 4:
+        logger.info("El equipo esta cerca del arco... Patean al arco!")
+        return patear(token, coord=coord_arco)
+
+    # Si estamos lejos, pasamos al compañero más cercano al arco
+    jugadores = get_posicion_jugadores(mensaje, equipo_id)
+    if not jugadores:
+        return patear(token, coord=coord_arco)
+
+    jugador_objetivo = None
+    mejor_distancia = distancia_arco
+
+    for jugador in jugadores:
+        if jugador["numero"] == jugador_con_pelota:
+            continue  # no pasarse a uno mismo
+        # Para cada compañero, medimos qué tan cerca está del arco. Si está más cerca que el que tiene la pelota,
+        # lo consideramos mejor opción para recibir el pase.
+        distancia_receptor = distancia(get_posicion_arco(mensaje, equipo_id, es_adversario=True), jugador["coord"])
+        if distancia_receptor < mejor_distancia:
+            mejor_distancia = distancia_receptor
+            jugador_objetivo = jugador["numero"]
+
+    if jugador_objetivo:
+        logger.info(f"Pasandola al jugador {jugador_objetivo}")
+        return pasar_pelota(token, jugador_objetivo)
+
+    return patear(token, coord=coord_arco)
+
 
 
 
