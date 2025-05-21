@@ -15,7 +15,9 @@ from mensajes import (parse_server_message,
                       marcar_adversario)
 from utils import (get_ubicacion_pelota, 
                    buscar_pelota,
-                   patear_al_arco)
+                   patear_al_arco,
+                   move_defenders_to_goal,
+                   defence_strategy)
 from teams import TEAM_PIN
 from log import setup_logging
 
@@ -78,7 +80,7 @@ async def process_messages(websocket, token: str, equipo_id: str):
         elif type(mensaje) == MensajeReaccionar:
             logger.info("Reaccionar")
             logger.debug(mensaje)
-            mensaje_a_enviar = buscar_pelota(token, mensaje, equipo_id)
+            mensaje_a_enviar = defence_strategy(token, mensaje, equipo_id)
             await send_message(websocket, mensaje=mensaje_a_enviar)
 
         elif type(mensaje) == MensajeError:
