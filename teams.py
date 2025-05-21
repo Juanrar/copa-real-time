@@ -3,7 +3,7 @@ TEAM_PIN = {
     "datos":{
         "equipo":{
             "id":"1",
-            "nombre":"PIÑEYRO",
+            "nombre":"ESTRATEGIA",
             "jugadores":[
                 {"numero": 1, "nombre": "Mayer", "equipo_id": "1"},
                 {"numero": 2, "nombre": "Lagostena", "equipo_id": "1"},
@@ -17,7 +17,7 @@ TEAM_PIN = {
                 {"numero": 10, "nombre": "Dangiolo", "equipo_id": "1", "es_el_crack": True},
                 {"numero": 11, "nombre": "Dubinsky", "equipo_id": "1", "tiene_la_pelota": True}
             ],
-            "formacion":"4-4-2"
+            "formacion":"5-3-2"
         }
       }
     }
