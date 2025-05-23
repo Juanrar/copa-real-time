@@ -13,10 +13,9 @@ from mensajes import (parse_server_message,
                       pasar_pelota,
                       patear,
                       marcar_adversario)
-from utils import (get_ubicacion_pelota, 
-                   buscar_pelota,
-                   patear_al_arco,
-                   jugar_con_la_pelota)
+from utils import (buscar_pelota)
+from strategy import (estrategia_ofensiva)
+
 from teams import TEAM_BARCA
 from log import setup_logging
 
@@ -58,12 +57,12 @@ async def register(websocket) -> MensajeRegistro:
             logger.error(f"Server closed the connection with error: {e}")
         return None
 
+# Funcion para enviar mensajes al servidor
 async def send_message(websocket, mensaje: ClientMessage):
 
     await websocket.send(json.dumps(mensaje.model_dump()))
     logger.info(f'Accion enviada. Mensaje: {mensaje}')
     return
-
 
 # Funcion para evaluar los mensajes y procesarlos de acuerdo al tipo
 async def process_messages(websocket, token: str, equipo_id: str):
@@ -73,7 +72,7 @@ async def process_messages(websocket, token: str, equipo_id: str):
         if type(mensaje) == MensajeTienesLaPelota:
             logger.info("Tienes la pelota!")
             logger.debug(mensaje)
-            mensaje_a_enviar = jugar_con_la_pelota(token, mensaje, equipo_id)
+            mensaje_a_enviar = estrategia_ofensiva(token, mensaje, equipo_id)
             await send_message(websocket, mensaje=mensaje_a_enviar)
 
         elif type(mensaje) == MensajeReaccionar:
@@ -88,14 +87,15 @@ async def process_messages(websocket, token: str, equipo_id: str):
         else:
             logger.warning(f"Otro mensaje recibido.\nMensaje Enviado: {mensaje_a_enviar}\n\nMensaje recibido: {mensaje}")
 
-async def main():
-    url = f"{HOST}:{PORT}"
-    ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)                     # Creamos un contexto SSL para establecer una conexión segura (TLS)
+# Funcion para crear el contexto SSL
+def create_ssl_context() -> ssl.SSLContext:
+    ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)           # Creamos un contexto SSL para establecer una conexión segura (TLS)
     ssl_context.check_hostname = False
-    ssl_context.verify_mode = ssl.CERT_NONE                                   # Desactivamos la verificación del certificado SSL
-    token = None
-    setup_logging(ID_CLIENT)
-    
+    ssl_context.verify_mode = ssl.CERT_NONE                         # Desactivamos la verificación del certificado SSL
+    return ssl_context                                   
+
+# Funcion para conectar con el servidor y ejecutar el programa
+async def connect_and_run(url: str, ssl_context: ssl.SSLContext):
     async with websockets.connect(url, ssl=ssl_context) as websocket:
         logger.info("Conectado al servidor!. Registrando equipo...")
         mensaje_registro = await register(websocket)
@@ -105,8 +105,18 @@ async def main():
         if token is None:
             logger.error('No se registro ningun token. Saliendo')
             return
+        
         logger.info(f'El token del equipo es: {token}')
         await process_messages(websocket, token=token, equipo_id=equipo_id)
 
-# Ejecutamos la funcion
-asyncio.run(main())
+# Funcion main
+async def main():
+    url = f"{HOST}:{PORT}"
+    ssl = create_ssl_context()
+    token = None
+    setup_logging(ID_CLIENT)
+    await connect_and_run(url, ssl)
+    
+# Ejecutamos el bloque main
+if __name__ == "__main__":
+    asyncio.run(main())
