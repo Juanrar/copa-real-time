@@ -27,8 +27,10 @@ from utils import (   Movimiento,
                       jugador_mas_cercano_adversario,
                       jugador_mas_cercano_posicion
                     )
+import datetime
 
 logger = logging.getLogger('strategy')
+#random.seed(int(datetime.datetime.now()))
 
 # Funcion principal de la estrategia ofensiva
   
@@ -51,7 +53,7 @@ def estrategia_ofensiva(token: str, mensaje: MensajeTienesLaPelota, equipo_id: s
         accion: Pase / Patear pelota dependiendo de la situacion.
     """
     posibles_atacantes = [7, 8, 10]     # Números de los jugadores designados para el ataque
-    jugadores_del_equipo = get_posicion_jugadores(token, mensaje, equipo_id)
+    jugadores_del_equipo = get_posicion_jugadores(mensaje, equipo_id)
     zona_de_remate = definir_zona_de_remate(mensaje, equipo_id)
     
     cancha = get_cancha(mensaje)
@@ -61,20 +63,16 @@ def estrategia_ofensiva(token: str, mensaje: MensajeTienesLaPelota, equipo_id: s
 
     coord_pelota, jugador_con_pelota = get_ubicacion_pelota(mensaje)
 
-    if not coord_pelota or not jugador_con_pelota:
+    if not coord_pelota and not jugador_con_pelota:
         logger.warning("No se pudo obtener info suficiente para realizar un pase")
         return None
-
-    # Posicionamiento ofensivo del equipo
-    posicionamiento_ataque = pasar_al_ataque(token, mensaje, posibles_atacantes)
 
     equipo_es_equipo1 = cancha.equipo1.id == f"equipo:{equipo_id}"
     arco_rival = cancha.equipo2.arco if equipo_es_equipo1 else cancha.equipo1.arco
     coord_random_arco = elegir_punto_aleatorio_arco(arco_rival)
 
     # Si la pelota esta o supera la zona optima de remate, entonces el jugador que la tiene patea
-    if coord_pelota.x >= zona_de_remate:
-        logger.error("ERROR")
+    if coord_pelota.y >= zona_de_remate['limite_inferior'] and coord_pelota.y <= zona_de_remate['limite_superior']:
         logger.info("En zona de remate. Se ejecuta el disparo al arco")
         arco_rival = get_posicion_arco(mensaje, equipo_id, es_adversario=True)
         coord_random_arco = elegir_punto_aleatorio_arco(arco_rival)
@@ -87,7 +85,10 @@ def estrategia_ofensiva(token: str, mensaje: MensajeTienesLaPelota, equipo_id: s
         return pasar_pelota(token, proximo_jugador)
     
     # Si la pelota esta en movimiento, los jugadores designados para atacar se mueven
+    # TODO: Ver de mover a reaccionar o sacar.
     elif coord_pelota:
+        # Posicionamiento ofensivo del equipo
+        posicionamiento_ataque = pasar_al_ataque(token, mensaje, posibles_atacantes)
         movimientos = posicionamiento_ataque
         jugador = jugador_mas_cercano_posicion(mensaje, equipo_id, coord_pelota)
         logger.info(f'Jugador mas cercano a la pelota {jugador}')
@@ -177,16 +178,25 @@ def pasar_al_ataque(token: str, mensaje: MensajeTienesLaPelota, atacantes: List[
     return movimientos
 
 # Funcion para definir la zona optima de remate
-def definir_zona_de_remate(mensaje: MensajeTienesLaPelota, equipo_id: str) -> int:
+def definir_zona_de_remate(mensaje: MensajeTienesLaPelota, equipo_id: str) -> dict:
     posicion_arco_rival = get_posicion_arco(mensaje, equipo_id, True)
     if not posicion_arco_rival or len(posicion_arco_rival) != 3:
         logger.error("No se pudo obtener la posición del arco rival.")
         return None
 
-    # Calcular la coordenada x central del arco
-    centro_del_arco = posicion_arco_rival[1]
+    posicion_arco_rival = posicion_arco_rival[1]
+
+    # Calcular la coordenada y central del arco
+    rango_tiro = 6
+
+    if posicion_arco_rival.y == 0:
+        limite_inferior = posicion_arco_rival.y
+        limite_superior = posicion_arco_rival.y + rango_tiro
+    elif posicion_arco_rival.y == 19:
+        limite_inferior = posicion_arco_rival.y - rango_tiro
+        limite_superior = posicion_arco_rival.y
 
     # Defino la zona de remate
-    zona_de_remate = centro_del_arco.x - 5
+    zona_de_remate = {'limite_inferior': limite_inferior, 'limite_superior': limite_superior}
 
     return zona_de_remate

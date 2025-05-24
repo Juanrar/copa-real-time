@@ -114,7 +114,7 @@ def get_posicion(mensaje: MensajeTienesLaPelota | MensajeReaccionar, equipo_id: 
     
     return None
 
-def get_posicion_arco(mensaje: MensajeTienesLaPelota | MensajeReaccionar, equipo_id: str, es_adversario: bool) -> Coordenada | None:
+def get_posicion_arco(mensaje: MensajeTienesLaPelota | MensajeReaccionar, equipo_id: str, es_adversario: bool) -> Tuple[Coordenada, Coordenada, Coordenada] | None:
     """
     Devuelve la posicion central del arco.
 
@@ -253,7 +253,7 @@ def patear_al_arco(token: str, mensaje: MensajeTienesLaPelota, equipo_id: str):
     coordenada_arco = get_posicion_arco(mensaje, equipo_id=equipo_id, es_adversario=True)
 
     if coordenada_arco:
-        return patear(token, coord=coordenada_arco)
+        return patear(token, coord=coordenada_arco[1])
     else:
         logger.error(f'Error al encontrar la coordenada del arco. Mensaje: {mensaje}')
         return patear(token, coord=Coordenada(x=10, y=10))
