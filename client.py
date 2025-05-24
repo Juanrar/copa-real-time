@@ -18,6 +18,7 @@ from utils import (get_ubicacion_pelota,
                    patear_al_arco)
 from teams import TEAM_PIN
 from log import setup_logging
+import time
 
 # Datos del servidor
 HOST = 'wss://machuca.com.ar'
@@ -74,12 +75,14 @@ async def process_messages(websocket, token: str, equipo_id: str):
             logger.debug(mensaje)
             mensaje_a_enviar = patear_al_arco(token, mensaje, equipo_id)
             await send_message(websocket, mensaje=mensaje_a_enviar)
+            time.sleep(1)
 
         elif type(mensaje) == MensajeReaccionar:
             logger.info("Reaccionar")
             logger.debug(mensaje)
             mensaje_a_enviar = buscar_pelota(token, mensaje, equipo_id)
             await send_message(websocket, mensaje=mensaje_a_enviar)
+            time.sleep(1)
 
         elif type(mensaje) == MensajeError:
             logger.error(f"Mensaje de error del servidor. Mensaje enviado: {mensaje_a_enviar}, Mensaje recibido: {mensaje}")

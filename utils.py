@@ -17,6 +17,9 @@ from mensajes import (
                       patear,
                       marcar_adversario
                       )
+import random
+
+random.seed(1)
 
 logger = logging.getLogger('utils')
 
@@ -60,7 +63,9 @@ def get_posicion_jugadores(mensaje: MensajeTienesLaPelota | MensajeReaccionar, e
         return jugadores
 
     for sector in cancha.sectores:
-        jugadores_sector = [{'numero': ocupante.numero, 'coord': Coordenada(x=sector.x, y=sector.y)} for ocupante in sector.ocupantes if ocupante.equipo_id == f'equipo:{equipo_id}']
+        jugadores_sector = [{'numero': ocupante.numero, 'coord': Coordenada(x=sector.x, y=sector.y)} 
+                            for ocupante in sector.ocupantes 
+                            if ocupante.equipo_id == f'equipo:{equipo_id}']
         jugadores.extend(jugadores_sector)
 
     return jugadores
@@ -130,10 +135,16 @@ def get_posicion_arco(mensaje: MensajeTienesLaPelota | MensajeReaccionar, equipo
         logger.error(f'Error al obtener el arco. Mensaje: {mensaje}')
         return None
     
-    if es_adversario and cancha.equipo1.id != f'equipo:{equipo_id}':
-        return cancha.equipo1.arco[1]
+    if cancha.equipo1.id == f'equipo:{equipo_id}':
+        if es_adversario:
+            return cancha.equipo2.arco[1]
+        else:
+            return cancha.equipo1.arco[1]
     else:
-        return cancha.equipo2.arco[1]
+        if es_adversario:
+            return cancha.equipo1.arco[1]
+        else:
+            return cancha.equipo2.arco[1]
 
 def get_ubicacion_pelota(mensaje: MensajeReaccionar) -> Tuple[Coordenada, int] | None:
     """
@@ -249,6 +260,22 @@ def patear_al_arco(token: str, mensaje: MensajeTienesLaPelota, equipo_id: str):
         logger.error(f'Error al encontrar la coordenada del arco. Mensaje: {mensaje}')
         return patear(token, coord=Coordenada(x=10, y=10))
 
+def correr_todos(token: str, mensaje: MensajeReaccionar, equipo_id: str, coord: Coordenada) -> MensajeCorrer:
+
+    jugadores = get_posicion_jugadores(mensaje, equipo_id)
+    #jugadores = random.sample(jugadores, 4)
+
+    data = {"movimientos": [{"jugador_numero": jugador["numero"], "x": coord.x, "y": coord.y} for jugador in jugadores]}
+
+    return correr(token, data)
+
+def correr_random(token: str, mensaje: MensajeReaccionar, equipo_id: str) -> MensajeCorrer:
+    jugadores = get_posicion_jugadores(mensaje, equipo_id)
+    #jugadores = random.sample(jugadores, 4)
+
+    data = {"movimientos": [{"jugador_numero": jugador["numero"], "x": (jugador["coord"].x + random.randint(0, 12)) % 12, "y": (jugador["coord"].y + random.randint(0, 19)) % 19} for jugador in jugadores]}
+
+    return correr(token, data)
 
 
 
